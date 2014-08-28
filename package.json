@@ -4,14 +4,15 @@
   "description": "Omni.js - Javascript framework to easily build real-time web apps.",
   "version": "0.2.6",
   "repository": {
-    "type": "git", "url": "git://github.com/Mashlol/omni.git"
+    "type": "git",
+    "url": "git://github.com/Mashlol/omni.git"
   },
   "main": "./lib/omni",
   "dependencies": {
-    "socket.io": "0.9.14",
-    "express": "3.2.0",
-    "backbone": "1.0.0",
-    "uglify-js": "2.2.5"
+    "backbone": "^1.1.2",
+    "express": "^4.8.6",
+    "socket.io": "^1.0.6",
+    "uglify-js": "^2.4.15"
   },
   "devDependencies": {
     "mocha": "*",
